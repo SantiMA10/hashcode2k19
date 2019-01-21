@@ -40,7 +40,7 @@ for (let i = 0; i < R; i++) {
         }
 
         if ((j - beg) === H) {
-            beg = j + 1;
+            beg = j;
         }
     }
 }
