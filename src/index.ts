@@ -39,7 +39,9 @@ for (let i = 0; i < R; i++) {
             beg = j + 1;
         }
 
-        if ((j - beg) === H) {
+        if (tomatoes + mushrooms === H) {
+            mushrooms = 0;
+            tomatoes = 0;
             beg = j;
         }
     }
