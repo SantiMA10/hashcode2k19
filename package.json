@@ -1,0 +1,29 @@
+{
+  "name": "hashcode2k19",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:watch": "nodemon --watch 'src' -e ts --exec 'ts-node' ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiMA10/hashcode2k19.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiMA10/hashcode2k19/issues"
+  },
+  "homepage": "https://github.com/SantiMA10/hashcode2k19#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "nodemon": "^1.18.9",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  }
+}
